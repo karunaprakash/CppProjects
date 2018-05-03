@@ -23,7 +23,9 @@ bool AreParanthesBalanced(string str){
               
            else if (str[i] == ')' || str[i] == ']' || str[i] == '}' )
            {
-               if (! s.empty() && !ArePair(s.top(),str[i]))
+               if ( s.empty() )
+		       return false;
+		else if (!ArePair(s.top(),str[i]))
 	       {
                    return false;
                }
