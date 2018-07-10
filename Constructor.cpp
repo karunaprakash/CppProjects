@@ -3,6 +3,7 @@ using namespace std;
 
 class abc
 {
+	int a;
   public:
   abc(){      cout<<"Constructor"<<endl;  }
   ~abc(){      cout<<"Destructor"<<endl;  }
@@ -14,6 +15,12 @@ class abc
       return *this;
       
   }
+  
+  void SetA(int a){
+	  this->a = a;
+  }
+  int GetA() { return a;}
+  
 };
 int main() {
 abc obj1;
