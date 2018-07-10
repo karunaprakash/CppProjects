@@ -12,8 +12,11 @@ class abc
       cout<<"Objects are not same"<<endl;
       }
       return *this;
-      
-  }
+     }
+	 
+	 char* GetUser2(){
+		 return "User2";
+	 }
 };
 int main() {
 abc obj1;
