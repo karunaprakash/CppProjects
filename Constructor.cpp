@@ -13,13 +13,16 @@ class abc
       cout<<"Objects are not same"<<endl;
       }
       return *this;
-      
+     }
+	 
+	 char* GetUser2(){
+		 return "User2";
   }
   
   void SetUser1(char* strUserDtls)
   {
 	  CrntUser = strUserDtls;
-  }
+	 }
 };
 int main() {
 abc obj1;
