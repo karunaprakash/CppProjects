@@ -14,6 +14,11 @@ class abc
       return *this;
       
   }
+  //Move Constructor
+  abc(const abc&& temp){cout<<"Move Constructor"<<endl;}
+  //Move overload assignment operator.
+  abc& operator=(const abc&& temp){cout<<"Move overload assignment operator"<<endl;}
+  
 };
 int main() {
 abc obj1;
