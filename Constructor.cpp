@@ -3,6 +3,7 @@ using namespace std;
 
 class abc
 {
+	char* CrntUser;
   public:
   abc(){      cout<<"Constructor"<<endl;  }
   ~abc(){      cout<<"Destructor"<<endl;  }
@@ -13,6 +14,11 @@ class abc
       }
       return *this;
       
+  }
+  
+  void SetUser1(char* strUserDtls)
+  {
+	  CrntUser = strUserDtls;
   }
 };
 int main() {
