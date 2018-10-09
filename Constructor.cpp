@@ -6,9 +6,6 @@ class abc
   public:
   abc(){      cout<<"Constructor"<<endl;  }
   ~abc(){      cout<<"Destructor"<<endl;  }
-  
-  
- 
   abc(const abc& temp){cout<<"Copy Constructor"<<endl;}
   abc& operator=(abc& temp){
       if ( &temp != this){
