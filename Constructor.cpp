@@ -7,7 +7,6 @@ class abc
   abc(){      cout<<"Constructor"<<endl;  }
   ~abc(){      cout<<"Destructor"<<endl;  }
   abc(const abc& temp){cout<<"Copy Constructor"<<endl;}
-  // Here Master Chnages are available
   abc& operator=(abc& temp){
       if ( &temp != this){
       cout<<"Objects are not same"<<endl;
