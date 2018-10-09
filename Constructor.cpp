@@ -4,8 +4,7 @@ using namespace std;
 class abc
 {
   public:
-  abc(){      cout<<"Constructor"<<endl;  } //Constructor again
-  abc(){      cout<<"Constructor"<<endl;  } //Constructor here
+  abc(){      cout<<"Constructor"<<endl;  } //Constructor
   ~abc(){      cout<<"Destructor"<<endl;  } //Destructor here
   abc(const abc& temp){cout<<"Copy Constructor"<<endl;}
   abc& operator=(abc& temp){
