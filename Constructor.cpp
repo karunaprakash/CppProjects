@@ -4,8 +4,8 @@ using namespace std;
 class abc
 {
   public:
-  abc(){      cout<<"Constructor"<<endl;  } //Constructor
-  ~abc(){      cout<<"Destructor"<<endl;  } //Destructor
+  abc(){      cout<<"Constructor"<<endl;  } //Constructor here
+  ~abc(){      cout<<"Destructor"<<endl;  } //Destructor here
   abc(const abc& temp){cout<<"Copy Constructor"<<endl;}
   abc& operator=(abc& temp){
       if ( &temp != this){
