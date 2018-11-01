@@ -60,3 +60,11 @@ int main() {
  SMP->GetTotalAmount(p1);
 	return 0;
 }
+
+
+
+
+
+
+
+//
